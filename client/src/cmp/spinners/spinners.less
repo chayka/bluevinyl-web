@@ -1,0 +1,48 @@
+@img-width: 24px;
+@img-height: 24px;
+@size-padding: 10px;
+
+.surge-spinner {
+    padding: 0 0 0 (@img-width + @size-padding);
+    background: url('./spinner32x32.gif') no-repeat 0 0;
+    background-size: @img-width @img-height;
+    min-height: @img-height;
+    line-height: @img-height;
+    vertical-align: middle;
+    display: inline-block;
+
+    & > .spinner-message{
+
+    }
+}
+
+@margin-between-spinners: 15px;
+
+.surge-spinners {
+    & > .spinners {
+        position: fixed;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        padding: @margin-between-spinners @margin-between-spinners 0;
+        opacity: 0.8;
+        z-index: 1000;
+
+        bottom: 10%;
+        right: 50px;
+
+        & > .surge-spinner {
+            margin-bottom: @margin-between-spinners;
+            display: none;
+
+            &:first-child {
+                display: block;
+            }
+        }
+
+        &:hover > {
+            & > .surge-spinner {
+                display: block;
+            }
+        }
+    }
+}

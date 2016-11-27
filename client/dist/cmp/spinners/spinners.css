@@ -1,0 +1,2 @@
+.surge-spinner{padding:0 0 0 34px;background:url(spinner32x32.gif) no-repeat 0 0;background-size:24px 24px;min-height:24px;line-height:24px;vertical-align:middle;display:inline-block}.surge-spinners>.spinners{position:fixed;background-color:#eee;border-radius:5px;padding:15px 15px 0;opacity:.8;z-index:1000;bottom:10%;right:50px}.surge-spinners>.spinners>.surge-spinner{margin-bottom:15px;display:none}.surge-spinners>.spinners:hover>.surge-spinner,.surge-spinners>.spinners>.surge-spinner:first-child{display:block}
+/*# sourceMappingURL=spinners.css.map */

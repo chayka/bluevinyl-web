@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/main.js"],"names":["Vue"],"mappings":"YACA,IAAIA,MAAAA,GAAI","file":"main.js","sourcesContent":["\nnew Vue({\n    el: '#blue-vinyl-app'\n});"]}

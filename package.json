@@ -1,0 +1,60 @@
+{
+  "name": "bluevinyl-web",
+  "version": "1.0.0",
+  "description": "BlueVinyl software web UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chayka/bluevinyl-web.git"
+  },
+  "author": "Boris Mossounov <borix@tut.by> (https://anotherguru.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chayka/bluevinyl-web/issues"
+  },
+  "homepage": "https://github.com/chayka/bluevinyl-web#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "vue": "^2.1.3",
+    "vue-resource": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-filenames": "^1.1.0",
+    "eslint-plugin-import": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^2.4.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-csslint": "^1.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-git": "^1.12.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-less": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-vueify": "0.0.3",
+    "gulp-zip": "^3.2.0",
+    "imagemin-pngquant": "^5.0.0",
+    "less": "^2.7.1",
+    "run-sequence": "^1.2.2",
+    "yargs": "^6.3.0"
+  }
+
+}
